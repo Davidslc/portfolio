@@ -1,0 +1,14 @@
+
+header  {
+    background-image: url(../img/yellow-stone3.jpg);
+}
+
+/*! Skills page */
+.page-skills img, .page-education img, .page-experience img {
+  max-height: 150px;
+  box-shadow: 5px 5px 10px #aaa;
+}
+
+.added-row {
+    padding-top: 50px;
+}
