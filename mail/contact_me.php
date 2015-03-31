@@ -17,3 +17,4 @@ if ($name and $email_address and $phone and $message) {
     mail($to,$email_subject,$email_body,$headers);
     echo '<p>'.$email_body.'</p>'
 }
+?>
