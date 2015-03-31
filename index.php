@@ -511,7 +511,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <form name="sentMessage" id="contactForm" method="post" novalidate>
+                    <form name="sentMessage" id="contactForm" method="post" action="#" novalidate>
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
@@ -536,8 +536,8 @@
                             <div class="clearfix"></div>
                             <div class="col-lg-12 text-center">
                                 <div id="success"></div>
-                                <input type="submit" class="btn btn-xl">Send Message</input>
-                                <?php include 'mail/contact_me.php' ?>
+                                <input type="submit" class="btn btn-xl"></input>
+                                <?php include_once 'mail/contact_me.php' ?>
                             </div>
                         </div>
                     </form>
