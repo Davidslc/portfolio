@@ -9,7 +9,7 @@
 //	echo "No arguments Provided!";
 //	return false;
 //  }
-	
+
 $name = $_POST['name'];
 echo '<p>'.$name.'</p>'
 $email_address = $_POST['email'];
