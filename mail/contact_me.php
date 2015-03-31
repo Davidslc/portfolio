@@ -11,6 +11,7 @@
 //  }
 	
 $name = $_POST['name'];
+echo '<p>'.$name.'</p>'
 $email_address = $_POST['email'];
 $phone = $_POST['phone'];
 $message = $_POST['message'];
