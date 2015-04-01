@@ -16,8 +16,6 @@ $phone = $_POST['phone'];
 $message = $_POST['message'];
 	
 // Create the email and send the message
-if (isset($_POST['name']))
-{
 $to = 'djjohnsonslc@gmail.com'; // Add your email address in-between the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
 $email_subject = "Website Contact Form:  $name";
 $email_body = "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message";
@@ -25,5 +23,4 @@ $mail_status = mail($to, $email_subject, $email_body);
 ?>
 <p>Success! Body: <?php echo $email_body ?> Status: <?php echo $mail_status ?> </p>
 <?php
-}
 ?>
