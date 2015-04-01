@@ -537,7 +537,6 @@
                             <div class="col-lg-12 text-center">
                                 <div id="success"></div>
                                 <input type="submit" class="btn btn-xl"></input>
-                                <?php include 'mail/contact_me.php' ?>
                             </div>
                         </div>
                     </form>
