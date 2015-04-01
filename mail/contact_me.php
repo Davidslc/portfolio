@@ -6,7 +6,7 @@ $email_address = $_POST['email'];
 $phone = $_POST['phone'];
 $message = $_POST['message'];
 
-echo '<p>Name: '.$name.'</p>'
+return true;
 	
 // Create the email and send the message
 //if ($name and $email_address and $phone and $message) {
