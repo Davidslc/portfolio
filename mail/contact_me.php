@@ -16,7 +16,7 @@ $phone = $_POST['phone'];
 $message = $_POST['message'];
 	
 // Create the email and send the message
-if (isset($_POST['submit']))
+if (isset($_POST['name']))
 {
 $to = 'djjohnsonslc@gmail.com'; // Add your email address in-between the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
 $email_subject = "Website Contact Form:  $name";
