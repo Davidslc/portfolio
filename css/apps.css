@@ -26,3 +26,29 @@ header  {
 .text-pointer {
     cursor: pointer;
 }
+
+.contact-info, .contact-info p {
+    color: #ffffff;
+    font-size: 17px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.contact-info i {
+    font-size: 17px;
+    padding-right: 5px;
+}
+
+.contact-info a {
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+.contact-info a:hover {
+    color: #fed136;
+}
+
+.contact-heading {
+    padding-bottom: 20px;
+}
